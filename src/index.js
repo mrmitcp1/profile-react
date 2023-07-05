@@ -6,9 +6,26 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div className="container">
+        <div className="card">
+            <div className="card--header" />
+            <img
+                className="avatar"
+                src="./IMG_1074.JPG"
+                alt="avatar"
+            />
+            <div className="card--body">
+                <div>
+                    <p className="text-header">Toàn Đông Á Bệnh Phu</p>
+                    <p className="text-sub">
+                        Yêu Lisa Black Pink
+                    </p>
+                    <button className="btn third">FOLLOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
